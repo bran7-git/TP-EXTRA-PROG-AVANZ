@@ -30,6 +30,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.TU_NOMBRE_EXACTO_DE_SECRET }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TPEXTRA_PROG_AVANADA }}'
           projectId: tpextra-prog-avanzada
           expires: 3d
